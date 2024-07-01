@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+<body>
+    
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-user" ></i>
+                    <p>About Me</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                    <p>Services</p>
+                </li>
+                <li onclick="Navigate(3)"><i class="fa-solid fa-images"></i>
+                    <p>Gallery</p>
+                </li>
+                
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! I'm <span class="stylized-name">SHAYAAN MOHSEEN KHAN</span>,</h1>
+                        <h2>A <span class="proffesions">Web Developer</span></h2>
+                        <p class="heroline">and the world of web development is my playground.</p>
+                        <div class="buttonGroup"><button onclick="location.href='contact.html'">Contact Me</button></div>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="shanu.png" alt="">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll <i class="fa-solid fa-chevron-right fa-shake"></i>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-us">
+                    <h1 class="heading">About Me</h1>
+                    <h3 class="sub-heading">I'm SHAYAAN MOHSEEN KHAN, <span class="proffesions">A Web Developer</span></h3>
+                    <p class="aboutme-deatils">
+                         This website marks my exciting debut into the online space, and I'm thrilled to share my passion for crafting seamless digital experiences with you. Whether it's building functional interfaces or diving into the intricate logic of code, I find joy in transforming ideas into interactive realities.
+                    
+                        As a budding web developer, I'm constantly learning and exploring new technologies, driven by a thirst for knowledge and a desire to create impactful solutions. This website is more than just a platform; it's a testament to my journey, a space where I'll showcase my projects, experiment with innovative approaches, and connect with fellow enthusiasts like you. So, feel free to browse, explore, and engage! Let's embark on this exciting journey together, and who knows, maybe we can even collaborate on something amazing!
+                    </p>
+                    <div class="about-me-divison">
+                        <div class="about-me-table">
+                            <li><span>Experience:</span> 1+ years</li>
+                            <li><span>Country:</span>INDAIN</li>
+                            <li><span>Avability:</span> 24/7 </li>
+                            <li><span>Satisfied Clients:</span>5</li>
+                            <li><span>Age</span>:18</li>
+                            <li><span>Phone</span>:876-737-6810</li>
+                            <li><span>Language Used:</span>HTML</li>
+                            <li><span>Degree</span>:BCS</li>
+                        </div>
+
+                        <div class="skill-bar">
+                            <li>
+                                <p>HTML</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:99%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>CSS</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:98%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>JavaScript</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:80%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Python</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:100%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>React</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:50%"></div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="swiper-slide services">
+
+                    <h1 class="heading">Services</h1>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h3>Web Design</h3>
+                        
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h3>Web Development</h3>
+                        
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-image"></i></div>
+                        <h3>Graphic Designer</h3>
+                        
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+                        <h3>Database Admin</h3>
+                           
+                    </div>
+                </div>
+                <div class="swiper-slide gallery">
+                    <h1 class="heading">Gallery</h1>
+                    <div class="project"><img src="https://picsum.photos/200/300?random=1" alt=""></div>
+                    <div class="project"><img src="https://picsum.photos/200/300?random=2" alt=""></div>
+                    <div class="project"><img src="https://picsum.photos/200/300?random=3" alt=""></div>
+                    <div class="project"><img src="https://picsum.photos/200/300?random=4" alt=""></div>
+                    <div class="project"><img src="https://picsum.photos/200/300?random=5" alt=""></div>
+                    <div class="project"><img src="https://picsum.photos/200/300?random=6" alt=""></div>
+                </div>
+                
+            </div>    
+    </main>
+
+</body>
+</html>
